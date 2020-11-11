@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Dataflow;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SuperheroWebpage.Data;
@@ -19,13 +20,15 @@ namespace SuperheroWebpage.Controllers
         // GET: SuperheroController
         public ActionResult Index()
         {
-            return View();
+            var superheroes = db.Superhero.ToList();
+            return View(superheroes);
         }
 
         // GET: SuperheroController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            Superhero hero = db.Superhero.Where(hero => hero.SupheroId == id).FirstOrDefault();
+            return View(hero);
         }
 
         // GET: SuperheroController/Create
