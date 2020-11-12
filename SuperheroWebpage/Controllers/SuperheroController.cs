@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SuperheroWebpage.Data;
 using SuperheroWebpage.Models;
 
@@ -57,16 +58,19 @@ namespace SuperheroWebpage.Controllers
         // GET: SuperheroController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Superhero hero = db.Superhero.Where(h => h.SupheroId == id).FirstOrDefault();
+            return View(hero);
         }
 
         // POST: SuperheroController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int SuperheroId, Superhero superhero)
         {
             try
             {
+                db.Superhero.Update(superhero);
+                db.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
