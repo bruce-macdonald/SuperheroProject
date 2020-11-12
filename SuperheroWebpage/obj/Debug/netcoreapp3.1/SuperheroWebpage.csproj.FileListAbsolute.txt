@@ -153,6 +153,7 @@ D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Create.cshtml.g.cs
+D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Delete.cshtml.g.cs
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Details.cshtml.g.cs
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Edit.cshtml.g.cs
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Index.cshtml.g.cs
@@ -167,5 +168,3 @@ D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\static
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\SuperheroWebpage.dll
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\SuperheroWebpage.pdb
 D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\SuperheroWebpage.genruntimeconfig.cache
-D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\SuperheroWebpage.csprojAssemblyReference.cache
-D:\DCC Projects\SuperheroWebpage\SuperheroWebpage\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Delete.cshtml.g.cs
