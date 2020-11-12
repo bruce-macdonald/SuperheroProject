@@ -18,4 +18,8 @@
     <Folder Include="Content\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\lib\Images\GreenLanternPowerBattery.jpg" />
+  </ItemGroup>
+
 </Project>
